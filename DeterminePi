@@ -1,0 +1,25 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main(){
+
+//divide area of circle by square got pi/4
+
+int m; // point on circle
+int n; // points on square
+
+cout<<"enter points on circle";
+cin>>m;
+
+cout<<"enter points on square";
+cin>>n;
+
+float result = (float)(4*(m/n));
+
+cout<<"result is = ";
+count<<result;
+
+getch();
+
+}
+
