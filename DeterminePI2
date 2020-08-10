@@ -4,19 +4,23 @@ void main()
 {
   int circle_points = 0;
   int square_points = 0;
+   int Interval = 0;
   
-  for(i=0;i<=10;i++){
+ while(interval < iterations) {
   
   int random_x = rand()%5+1;
   
   int random_y = rand()%5+1;
   
-  int d = (random_x*random_x)+(random_y*random_y)
+  int d = (random_x*random_x)+(random_y*random_y);
   
   if(d <= 1)
   {
      circle_points = circle_points+1;
      square_points = square_points+1;
+      Interval = Interval + 1;
+
+
      
     }
     
@@ -24,7 +28,7 @@ void main()
     
     float pi = (float)(4*c(ircle_points/square_points));
     
-    cout<<pi
+    cout<<pi;
     
     getch();
     
