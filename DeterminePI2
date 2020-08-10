@@ -5,6 +5,7 @@ void main()
   int circle_points = 0;
   int square_points = 0;
    int Interval = 0;
+   int iterations = 10;
   
  while(interval < iterations) {
   
