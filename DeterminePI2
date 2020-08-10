@@ -27,7 +27,7 @@ void main()
     
     }
     
-    float pi = (float)(4*c(ircle_points/square_points));
+    float pi = (float)(4*(circle_points/square_points));
     
     cout<<pi;
     
